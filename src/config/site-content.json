@@ -45,21 +45,21 @@
 		{
 			"id": "github",
 			"type": "github",
-			"value": "https://github.com/yysuni",
+			"value": "https://github.com/Fourgetu/2025-blog-public",
 			"label": "Github",
 			"order": 3
 		},
 		{
-			"id": "juejin",
-			"type": "juejin",
-			"value": "https://juejin.cn/user/2427311675422382",
-			"label": "稀土掘金",
+			"id": "linuxdo",
+			"type": "link",
+			"value": "https://linux.do/",
+			"label": "L站",
 			"order": 2
 		},
 		{
 			"id": "email",
 			"type": "email",
-			"value": "yysuni1001@gmail.com",
+			"value": "q124375@gmail.com",
 			"label": "",
 			"order": 1
 		}
