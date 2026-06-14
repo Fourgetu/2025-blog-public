@@ -1,22 +1,30 @@
 [
-	{
-		"slug": "recommend-codex-windows-fast-patch-skill",
-		"title": "推荐一个 Windows 版 Codex 修复工具",
-		"tags": ["Codex", "Windows", "Skill"],
-		"date": "2026-06-14T21:15",
-		"summary": "推荐 chen0416ccc-cpu/codex-windows-fast-patch-skill：一个用于修复 Windows 版 Codex Desktop 升级后能力失效问题的实用 skill。",
-		"cover": "/blogs/recommend-codex-windows-fast-patch-skill/cover.png",
-		"hidden": false,
-		"category": "工具"
-	},
-	{
-		"slug": "what-is-ai",
-		"title": "什么是 AI",
-		"tags": ["AI", "Agent", "Skill"],
-		"date": "2026-06-14T20:10",
-		"summary": "用一篇文章讲清楚 AI、模型、Agent、Skill、工具调用这些常见名词到底是什么意思。",
-		"cover": "/blogs/what-is-ai/cover.png",
-		"hidden": false,
-		"category": "AI"
-	}
+  {
+    "slug": "recommend-codex-windows-fast-patch-skill",
+    "title": "Codex部分功能:Fast Mode、插件、Computer Use 等被限制？一个skills解决！ ",
+    "tags": [
+      "Codex",
+      "Windows",
+      "Skill"
+    ],
+    "date": "2026-06-14T21:15",
+    "summary": "推荐 chen0416ccc-cpu/codex-windows-fast-patch-skill：一个用于修复 Windows 版 Codex Desktop 升级后能力失效问题的实用 skill。",
+    "cover": "/blogs/recommend-codex-windows-fast-patch-skill/cover.png",
+    "hidden": false,
+    "category": "工具"
+  },
+  {
+    "slug": "what-is-ai",
+    "title": "什么是 AI",
+    "tags": [
+      "AI",
+      "Agent",
+      "Skill"
+    ],
+    "date": "2026-06-14T20:10",
+    "summary": "用一篇文章讲清楚 AI、模型、Agent、Skill、工具调用这些常见名词到底是什么意思。",
+    "cover": "/blogs/what-is-ai/cover.png",
+    "hidden": false,
+    "category": "AI"
+  }
 ]

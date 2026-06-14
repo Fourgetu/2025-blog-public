@@ -1,9 +1,13 @@
 {
-	"title": "推荐一个 Windows 版 Codex 修复工具",
-	"tags": ["Codex", "Windows", "Skill"],
-	"date": "2026-06-14T21:15",
-	"summary": "推荐 chen0416ccc-cpu/codex-windows-fast-patch-skill：一个用于修复 Windows 版 Codex Desktop 升级后能力失效问题的实用 skill。",
-	"cover": "/blogs/recommend-codex-windows-fast-patch-skill/cover.png",
-	"hidden": false,
-	"category": "工具"
+  "title": "Codex部分功能:Fast Mode、插件、Computer Use 等被限制？一个skills解决！ ",
+  "tags": [
+    "Codex",
+    "Windows",
+    "Skill"
+  ],
+  "date": "2026-06-14T21:15",
+  "summary": "推荐 chen0416ccc-cpu/codex-windows-fast-patch-skill：一个用于修复 Windows 版 Codex Desktop 升级后能力失效问题的实用 skill。",
+  "cover": "/blogs/recommend-codex-windows-fast-patch-skill/cover.png",
+  "hidden": false,
+  "category": "工具"
 }
