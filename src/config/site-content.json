@@ -1,8 +1,8 @@
 {
 	"meta": {
-		"title": "AnhaoVAE",
+		"title": "YYsuni",
 		"description": "YYsuni 的个人博客，记录前端开发、探索、笔记。前端 UI 更新代码仓库。",
-		"username": "AnhaoVAE"
+		"username": "Suni"
 	},
 	"theme": {
 		"colorBrand": "#2fcbe7",
@@ -53,7 +53,7 @@
 			"id": "linuxdo",
 			"type": "link",
 			"value": "https://linux.do/",
-			"label": "L站",
+			"label": "LINUX DO",
 			"order": 2
 		},
 		{
