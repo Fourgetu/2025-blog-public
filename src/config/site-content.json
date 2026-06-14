@@ -51,7 +51,7 @@
 		},
 		{
 			"id": "linuxdo",
-			"type": "link",
+			"type": "linuxdo",
 			"value": "https://linux.do/",
 			"label": "L站",
 			"order": 2
