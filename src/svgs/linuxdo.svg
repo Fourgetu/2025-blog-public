@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+	<circle cx="14" cy="14" r="13" fill="#fff" />
+	<clipPath id="linuxdo_svg__clip">
+		<circle cx="14" cy="14" r="13" />
+	</clipPath>
+	<g clip-path="url(#linuxdo_svg__clip)">
+		<rect width="28" height="9.333" fill="#111" />
+		<rect y="9.333" width="28" height="9.334" fill="#f7f7f7" />
+		<rect y="18.667" width="28" height="9.333" fill="#f5b700" />
+	</g>
+	<circle cx="14" cy="14" r="12.25" stroke="currentColor" stroke-opacity=".12" stroke-width="1.5" />
+</svg>

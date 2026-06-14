@@ -9,6 +9,7 @@ import { hashFileSHA256 } from '@/lib/file-utils'
 
 type SocialButtonType =
 	| 'github'
+	| 'linuxdo'
 	| 'juejin'
 	| 'email'
 	| 'link'
@@ -154,6 +155,7 @@ export function SocialButtonsSection({ formData, setFormData, socialButtonImageU
 							className='w-24'
 							options={[
 								{ value: 'github', label: 'Github' },
+								{ value: 'linuxdo', label: 'LINUX DO' },
 								{ value: 'juejin', label: '掘金' },
 								{ value: 'email', label: '邮箱' },
 								{ value: 'x', label: 'X' },

@@ -1,5 +1,6 @@
 import { useCenterStore } from '@/hooks/use-center'
 import GithubSVG from '@/svgs/github.svg'
+import LinuxDoSVG from '@/svgs/linuxdo.svg'
 import { ANIMATION_DELAY, CARD_SPACING } from '@/consts'
 import { useConfigStore } from './stores/config-store'
 import JuejinSVG from '@/svgs/juejin.svg'
@@ -25,6 +26,7 @@ import { createPortal } from 'react-dom'
 
 type SocialButtonType =
 	| 'github'
+	| 'linuxdo'
 	| 'juejin'
 	| 'email'
 	| 'link'
@@ -111,6 +113,7 @@ export default function SocialButtons() {
 
 	const iconMap: Record<SocialButtonType, React.ComponentType<{ className?: string }>> = {
 		github: GithubSVG,
+		linuxdo: LinuxDoSVG,
 		juejin: JuejinSVG,
 		email: EmailSVG,
 		wechat: WechatSVG,
@@ -151,6 +154,20 @@ export default function SocialButtons() {
 					className={`font-averia flex items-center gap-2 rounded-xl border bg-[#070707] text-xl text-white ${!hasLabel ? 'p-1.5' : 'px-3 py-1.5'}`}
 					style={{ boxShadow: ' inset 0 0 12px rgba(255, 255, 255, 0.4)' }}>
 					<Icon className={'size-8'} />
+					{hasLabel && button.label}
+				</motion.a>
+			)
+		}
+
+		if (button.type === 'linuxdo') {
+			return (
+				<motion.a
+					key={button.id}
+					href={button.value}
+					target='_blank'
+					{...commonProps}
+					className={`card relative flex items-center gap-2 rounded-xl px-3 py-2.5 font-medium whitespace-nowrap ${!hasLabel ? 'p-1.5' : ''}`}>
+					<Icon className={hasLabel ? 'size-5' : 'size-8'} />
 					{hasLabel && button.label}
 				</motion.a>
 			)
